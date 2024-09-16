@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style:inherit; 
+  }
 }
 :root {
   --on: 0;
@@ -68,7 +74,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: rgb(72, 255, 0);
   position: absolute;
   top: 5px;
   left: 50%; /* Ajusta según sea necesario */
@@ -78,7 +84,7 @@ h1 {
 
   .carita {
     font-size: 50px; /* Ajusta según sea necesario */
-    color: yellow; /* o el color que prefieras para la carita */
+    color: rgb(255, 255, 0); /* o el color que prefieras para la carita */
     position: absolute;
     top: 60px; /* Ajusta según sea necesario */
     left: 50%; /* Ajusta según sea necesario */
